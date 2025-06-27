@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: cursive;
+}
+h1{
+    background-color: #012641 ;
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid;
+    padding: 10px; 
+    margin: 0px;
+    border-color: rgb(3, 3, 3);
+    border-radius: 5px;
+}
+h1:hover{
+    animation: mymove 10s infinite;
+}
+@keyframes mymove{
+    from {background-color: #012641;}
+  to {background-color: rgb(145, 203, 226);}
+}
+div{
+    background-color: #60b3d1;
+    border-radius: 5px;
+    padding: 1px;
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid;
+}
+div:hover{
+    font-weight: bolder;
+}
+img{
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+div.Project{
+    padding: 0px;
+    margin: 0px;
+}
+.Project>p{
+    margin: 0px;
+}
+div.contact>a{
+    padding: 20px;
+}
+p{
+    margin-top: 10px;
+}
